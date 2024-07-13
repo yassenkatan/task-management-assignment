@@ -1,0 +1,7 @@
+version: "3.2"
+services:
+  yassinkattan_assignment:
+    image: yassinkattan_assignment
+    restart: always
+    ports:
+      - 3000:3000
